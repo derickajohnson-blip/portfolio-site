@@ -1,0 +1,177 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+
+}
+
+.hero {
+    padding: 140px 20px 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+
+
+}
+
+h2 {
+    font-size: 32px;
+    color: #00ff88;
+
+}
+
+p {
+    font-size: 18px;
+    color: #cccccc;
+}
+
+button {
+    background-color: #00ff88;
+    color: #121212;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #121212;
+
+    transform: translateY(-8px);
+}
+
+.logo {
+    font-size: 32px;
+    color: #00ff88;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+
+}
+
+nav {
+    width: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 50px;
+    
+    position: fixed;
+    top:0; 
+    width: 100%;
+
+    z-index: 10;
+}
+
+.about {
+
+    padding: 60px 20px 80px;
+
+}
+
+.about-content {
+
+    max-width: 800px;
+
+    margin: 0 auto;
+
+    text-align: center;
+
+}
+
+.about-content p {
+
+    line-height: 1.8;
+
+}
+
+.skills {
+
+    padding: 100px 20px;
+
+}
+
+.skills-container {
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 20px;
+
+}
+.skill-card {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px;
+    width: 180px;
+    border-radius: 12px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+    background-color: #00ff88;
+    color: #121212;
+    transform:translateY(-8px);
+    cursor: pointer;
+}
+
+
+.skills h2 {
+    text-align: center;
+}
+
+.projects {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.project-card {
+    background-color: #1e1e1e;
+    width: 300px;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.project-card h3 {
+    color: #00ff88;
+    font-size: 24px;
+}
+
+.project-card p {
+    line-height: 1.6;
+}
