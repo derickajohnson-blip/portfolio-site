@@ -1,7 +1,7 @@
 body {
     background-color: #121212;
     color: #ffffff;
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
 
 
@@ -36,7 +36,7 @@ p {
     color: #cccccc;
 }
 
-button {
+.project-button {
     background-color: #00ff88;
     color: #121212;
     border: none;
@@ -45,11 +45,12 @@ button {
     font-weight: bold;
     border-radius: 10px;
     cursor: pointer;
+    text-decoration: none;
 
     transition: all 0.3s ease;
 }
 
-button:hover {
+.project-button:hover {
     background-color: #ffffff;
     color: #121212;
 
@@ -61,11 +62,18 @@ button:hover {
     color: #00ff88;
 }
 
-ul {
+nav ul {
     display: flex;
     list-style: none;
     gap: 50px;
 
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
 }
 
 nav {
@@ -174,4 +182,23 @@ nav {
 
 .project-card p {
     line-height: 1.6;
+}
+
+.contact {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact a {
+    color: #00ff88;
+    text-decoration: none;
+}
+
+h1, h2, h3, .logo {
+    font-family: 'Space Grotesk', sans-serif;
 }
